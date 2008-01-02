@@ -10,6 +10,7 @@ License:	GPL
 Group:		System/Servers 
 URL:		http://savannah.nongnu.org/projects/qadsl/
 Source:		%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 qADSL is an auto-login & keep-alive daemon for Internet connections.
