@@ -1,6 +1,6 @@
 %define	name	qadsl
 %define	version	1.3.3
-%define	release	%mkrel 3
+%define	release	%mkrel 5
 
 Summary:	Autologin & Keep-Alive Daemon for Internet Connections
 Name:		%{name}
