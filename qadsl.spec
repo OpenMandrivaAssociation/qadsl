@@ -8,7 +8,7 @@ Version:	%{version}
 Release:	%{release}
 License:	GPL
 Group:		System/Servers 
-URL:		http://savannah.nongnu.org/projects/qadsl/
+URL:		https://savannah.nongnu.org/projects/qadsl/
 Source:		%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
