@@ -12,6 +12,11 @@ URL:		https://savannah.nongnu.org/projects/qadsl/
 Source:		%{name}-%{version}.tar.bz2
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 qADSL is an auto-login & keep-alive daemon for Internet connections.
 It was created to automate the annoying login process of several
